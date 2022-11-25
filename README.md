@@ -2,7 +2,7 @@
 
 This repository contains code for the implementation of our paper titled [Scaling Adversarial Training to Large Perturbation Bounds](https://arxiv.org/abs/2210.09852), accepted at the ECCV-2022 
 
-![plot](./OAAT.png)
+![plot](./OAAT_img.png)
 
  # Environment Settings 
 * Python 3.6.9
