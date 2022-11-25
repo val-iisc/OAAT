@@ -1,6 +1,6 @@
 # Oracle-Aligned Adversarial Training (OA-AT)
 
-This repository contains code for the implementation of our paper titled "Towards Achieving Adversarial Robustness Beyond Perceptual Limits", accepted at the ICML 2021 Workshop, [A Blessing in Disguise: The Prospects and Perils of Adversarial Machine Learning](https://advml-workshop.github.io/icml2021/) and at the ICCV 2021 Workshop on [Adversarial Robustness in the Real World](https://iccv21-adv-workshop.github.io/) [[Paper](https://openreview.net/pdf?id=SHB_znlW5G7)] [[Video](https://iccv21-adv-workshop.github.io/videos/15.mp4)] [[Poster](https://iccv21-adv-workshop.github.io/posters/15.pdf)]
+This repository contains code for the implementation of our paper titled [Scaling Adversarial Training to Large Perturbation Bounds](https://arxiv.org/abs/2210.09852), accepted at the ECCV-2022 
 
 ![plot](./OAAT.png)
 
@@ -9,11 +9,6 @@ This repository contains code for the implementation of our paper titled "Toward
 * PyTorch 1.7
 * Torchvision 0.8.0
 * Numpy 1.19.2
-
-Installing the required packages:
-```
-pip install -r requirements.txt
-```
 
 The checkpoints can be found at [Google Drive](https://drive.google.com/drive/u/3/folders/14uZoWixUUSGmF5vl-O6ZBIcAJghDaoyd)
 # Working  details
@@ -37,12 +32,12 @@ python eval.py --data CIFAR10 --arch WideResNet34 --main_model ./model-cifar-Wid
 ```
 # Citing this work
 ```
-@inproceedings{
-addepalli2021oaat,
-title={Towards Achieving Adversarial Robustness Beyond Perceptual Limits},
-author={Sravanti Addepalli and Samyak Jain and Gaurang Sriramanan and Shivangi Khare and Venkatesh Babu Radhakrishnan},
-booktitle={ICML 2021 Workshop on Adversarial Machine Learning},
-year={2021},
-url={https://openreview.net/forum?id=SHB_znlW5G7}
+@inproceedings{addepalli2022scaling,
+  title={Scaling Adversarial Training to Large Perturbation Bounds},
+  author={Addepalli, Sravanti and Jain, Samyak and Sriramanan, Gaurang and Venkatesh Babu, R},
+  booktitle={European Conference on Computer Vision},
+  pages={301--316},
+  year={2022},
+  organization={Springer}
 }
 ```
