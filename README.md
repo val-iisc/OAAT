@@ -30,6 +30,8 @@ Evaluating the robust performance of the trained model against [GAMA-PGD](https:
 python eval.py --data CIFAR10 --arch WideResNet34 --main_model ./model-cifar-WideResNet/OAAT_151_0.9996_CIFAR10_1_0.45_1_1_3_0.0003_200.pkl
 
 ```
+![plot](./OAAT_results.png)
+
 # Citing this work
 ```
 @inproceedings{addepalli2022scaling,
